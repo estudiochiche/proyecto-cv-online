@@ -1,0 +1,489 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+header {
+  width: auto;
+}
+
+footer {
+  clear: both;
+}
+
+
+
+/*-----------------------------MENU-----------------------------*/
+
+.menu a
+{
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration:none;
+}
+
+.menu {
+  height: auto;
+  padding: 10px;
+  position: fixed;
+  clear: both;
+  background: rgba(71,123,190,0.5);
+  width: 100%;
+  z-index: 100;
+}
+
+@media (max-width:768px) {
+	.menu  {
+    visibility:collapse;
+    }
+}
+
+
+.menu-flex {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.boton {
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+
+
+/*-----------------------------FIN MENU-----------------------------*/
+
+/*-----------------------------DATOS PERSONALES-----------------------------*/
+
+  .contenido {
+  background-color: #5ca3ff;
+  margin-top: 0px;
+  height: 720px;
+  width: 100%;
+}
+
+
+.contenido-izquierda {
+  float: left;
+  margin-left: 5%;
+  padding-top: 200px;
+  width: 45%;
+}
+@media (max-width:768px) {
+	.contenido-izquierda  {
+    float: none;
+    padding-top: 100px;
+    width: auto;
+    }
+}
+
+.contenido-derecha {
+  float: left;
+  margin-right: 5%;
+  height: 100%;
+  width: 45%;
+  padding: 0px;
+}
+@media (max-width:768px) {
+	.contenido-derecha  {
+    float: none;
+    margin-left: 5%;
+    }
+}
+
+.nombre-completo {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+.profesion {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 35px;
+  margin-top: 10px;
+}
+
+.datos-personales {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 20px;
+  line-height: 28px;
+}
+
+/*--------------------FIN DATOS PERSONALES---------------------------*/
+
+/*-----------------------------HISTORIA-----------------------------*/
+
+.historia {
+  background-color: #ffffff;
+  float: left;
+  height: 500px;
+}
+@media (max-width:768px) {
+	.historia {
+    height: auto;
+    padding: 0%;
+    margin: 0%;
+    }
+}
+
+
+
+.contenido-historia-1 {
+  float: left;
+	margin: 5%;
+  width: 40%;
+}
+@media (max-width:768px) {
+	.contenido-historia-1 {
+    float: none;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    width: auto;
+    }
+}
+
+
+.contenido-historia-2 {
+  float: left;
+  margin-bottom: 5%;
+	margin-right: 5%;
+  margin-top: 10%;
+  width: 45%;
+}
+@media (max-width:768px) {
+	.contenido-historia-2 {
+    float: none;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 0%;
+    width: auto;
+    }
+}
+
+.parrafo-historia {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+.parrafo-historia-destacado {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.titulo-historia {
+  color: #2572de;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 65px;
+  margin-top: 20px;
+}
+
+/*--------------------FIN DATOS PERSONALES---------------------------*/
+
+/*--------------------TRAYECTORIA------------------------------------*/
+
+.trayectoria {
+  background-color: #5CA3FF;
+  float: left;
+  height: 500px;
+  width: 100%;
+}
+@media (max-width:768px) {
+	.trayectoria {
+    height: auto;
+    padding-bottom: 5%;
+    }
+}
+
+.trayectoria-cronologia {
+  margin-left: 5%;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.trayectoria-0 {
+padding-top: 5%;
+margin-bottom: 40px;
+}
+
+.trayectoria-1 {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trayectoria-1 {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+}
+
+.trayectoria-2 {
+  float: left;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trayectoria-2 {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+}
+.trayectoria-3 {
+  float: right;
+  margin-left: 2%;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trayectoria-3 {
+    float: none;
+    margin: 0%;
+    width: 100%;
+    }
+}
+
+.trayectoria-icono{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: auto;
+}
+
+.trayectoria-titulo {
+color: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+font-weight: bold;
+line-height: 35px;
+margin-top: 20px;
+text-align: center;
+}
+
+.trayectoria-subtitulo {
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.trayectoria-texto {
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 24px;
+  }
+
+
+/*--------------------FIN TRAYECTORIA-----------------------------*/
+
+/*--------------------TRABAJOS------------------------------------*/
+
+.trabajos{
+  background-color: #FFFFFF;
+  float: left;
+  height: 700px;
+  width: 100%;
+}
+@media (max-width:768px) {
+  	.trabajos {
+      float: none;
+      height: auto;
+      padding-bottom: 5%;
+      width: 100%;
+      }
+  }
+
+.titulo-trabajos {
+  color: #2572de;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.icono-trabajos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 64px;
+  }
+@media (max-width:768px) {
+    	.icono-trabajos {
+        padding-top: 5%;
+        }
+    }
+
+.contenedor-trabajos {
+  margin-left: 5%;
+  margin-left: 5%;
+  width: 90%;
+  }
+
+.sub-trabajos {
+  color: #5CA3FF;
+  font-family:'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.text-trabajos {
+font-family:'Poppins', sans-serif;
+font-size: 16px;
+font-weight: lighter;
+line-height: 22px;
+}
+
+
+.trabajos-1 {
+  float: left;
+  margin-right: 2%;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trabajos-1 {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+}
+
+.trabajos-2 {
+  float: left;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trabajos-2 {
+    float: none;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+}
+
+.trabajos-3 {
+  float: right;
+  margin-left: 2%;
+  width: 32%;
+}
+@media (max-width:768px) {
+	.trabajos-3 {
+    float: none;
+    margin: 0%;
+    width: 100%;
+    }
+}
+
+/*--------------------FIN TRABAJOS-----------------------------*/
+
+
+/*--------------------CONTACTO------------------------------------*/
+
+.contacto {
+  background-color: #3A3A3A;
+  height: 100px;
+}
+@media (max-width:768px) {
+    	.contacto {
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        }
+    }
+
+.contacto-1 {
+  color: #FFFFFF;
+  font-family:'Poppins', sans-serif;
+  font-size: 23px;
+  font-weight: normal;
+  float: left;
+  line-height: 28px;
+  margin-top: 20px;
+  text-align: center;
+  width: 33%;
+}
+@media (max-width:768px) {
+  .contacto-1 {
+    float: none;
+    width: auto;
+    }
+  }
+
+.contacto-2 a {
+  color: #FFFFFF;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contacto-2  {
+  color: #FFFFFF;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+  line-height: 28px;
+  margin-top: 20px;
+  text-align: center;
+  width: 34%;
+}
+@media (max-width:768px) {
+  .contacto-2 {
+    float: none;
+    width: auto;
+    }
+  }
+
+.contacto-3  {
+  color: #FFFFFF;
+  font-family:'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  float: left;
+  line-height: 28px;
+  margin-top: 20px;
+  text-align: center;
+  width: 33%;
+}
+@media (max-width:768px) {
+  .contacto-3 {
+   float: none;
+   width: auto;
+   }
+  }
+
+/*--------------------FIN CONTACTO------------------------------------*/
